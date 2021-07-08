@@ -10,7 +10,7 @@ try:
     #import getpass as gt
 
 except Exception as e:
-    print("\n====== Porfavor ejecuta el comando: ======\n\t ** pip install -r requirements.txt **\n",e)
+    print("\n====== Porfavor ejecuta el comando: ======\n\t ** pip install -r requirements.txt **")
     sys.exit() 
 
 init(autoreset=True)
@@ -83,13 +83,13 @@ class CryptoPro:
             return tpaths, True
 
 if __name__ == "__main__":
-    print(green + "\t\t       ___                 _            ___             __           _       _   ")
-    print(green + "\t\t      / __\ __ _   _ _ __ | |_ ___     / _ \_ __ ___   / _\ ___ _ __(_)_ __ | |_ ")
-    print(green + "\t\t     / / | '__| | | | '_ \| __/ _ \   / /_)/ '__/ _ \  \ \ / __| '__| | '_ \| __|")
-    print(green + "\t\t    / /__| |  | |_| | |_) | || (_) | / ___/| | | (_) | _\ \ (__| |  | | |_) | |_ ")
-    print(green + "\t\t    \____/_|   \__, | .__/ \__\___/  \/    |_|  \___/  \__/\___|_|  |_| .__/ \__|")
-    print(green + "\t\t               |___/|_|                                               |_|        ")
-    print(red + "                                                            ||= Developed by MrROBOT =||\n")
+    print(green + "\t\t       ___                 _            ___             ")
+    print(green + "\t\t      / __\ __ _   _ _ __ | |_ ___     / _ \_ __ ___    ")
+    print(green + "\t\t     / / | '__| | | | '_ \| __/ _ \   / /_)/ '__/ _ \   ")
+    print(green + "\t\t    / /__| |  | |_| | |_) | || (_) | / ___/| | | (_) |  ")
+    print(green + "\t\t    \____/_|   \__, | .__/ \__\___/  \/    |_|  \___/   ")
+    print(green + "\t\t               |___/|_|                                 ")
+    print(red + "                                ||= Developed by MrROBOT =||\n")
 
     if parse.file == None and parse.mode == None:
         print(green + " ::===============================================================::")
@@ -178,6 +178,3 @@ if __name__ == "__main__":
         else:
             mesagge = "Has Introducido el argumento de cifrado/decifrado incorrecto\nVisualiza la ayuda!!!!"
             print(purpura + get_output_string("tux",mesagge))
-            
-
-         
