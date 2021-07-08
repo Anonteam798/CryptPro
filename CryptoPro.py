@@ -10,7 +10,7 @@ try:
     #import getpass as gt
 
 except Exception as e:
-    print("\n====== Porfavor ejecuta el comando: ======\n\t ** python -m pip install requirements.txt **")
+    print("\n====== Porfavor ejecuta el comando: ======\n\t ** pip install -r requirements.txt **")
     sys.exit() 
 
 init(autoreset=True)
