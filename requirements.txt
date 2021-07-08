@@ -4,7 +4,6 @@ figcow==1.0.2
 wincertstore==0.2
 colorama==0.4.4
 pycrypto==2.6.1
-pycryptodome==3.10.1
 argh==0.26.2
 args==0.1.0
 wincertstore==0.2
