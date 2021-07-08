@@ -15,7 +15,7 @@ Script simple que cifra cualquier fichero con el cifrado AES-CBC
 
     pkg install git -y
 
-    git clone https://github.com/Anonteam798/Scripts.git
+    git clone https://github.com/Anonteam798/CryptPro.git
 
     cd CryptPro
 
